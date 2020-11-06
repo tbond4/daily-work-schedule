@@ -69,3 +69,18 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+.custom-input{
+  padding:45px;
+  
+}
+.time-stamp{
+  padding-top:25px;
+  padding-bottom: 22px;
+  height: 92px;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+  border-right:black 2px solid ;
+}
+.custom-block{
+  margin:0;
+}
