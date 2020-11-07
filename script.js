@@ -34,3 +34,13 @@ function displayColors(){
     }
 }
 }
+container.on( "click", "button", function(event){
+   var task= $(event.target).parent().parent().find("input").val();
+   var blockNum=$(event.target).parent().parent().data("block");
+   localStorage.setItem(blockNum, task);
+})
+
+nineBlock.find("input").attr("placeholder", localStorage.getItem(nineBlock.data("block")));
+for(var i=0;i<blockArr.length;i++){
+    blockArr[i].find("input").attr("placeholder", localStorage.getItem(blockArr[i].data("block")));
+}
