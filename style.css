@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -71,16 +72,28 @@ textarea{
 }
 .custom-input{
   padding:45px;
-  
+  background-color: lightgray;
+  color: black;
 }
 .time-stamp{
   padding-top:25px;
   padding-bottom: 22px;
+  padding-left: 10px;
   height: 92px;
+  width:110px;
   border-top: black 2px solid;
   border-bottom: black 2px solid;
   border-right:black 2px solid ;
+  background-color: gold;
 }
 .custom-block{
   margin:0;
+}
+.custom-button{
+  background-color: lightblue;
+  color:black;
+}
+::placeholder{
+  color:black;
+  opacity:1;
 }
